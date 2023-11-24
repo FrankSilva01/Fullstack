@@ -227,3 +227,11 @@ Corpo da Resposta (JSON):
 - **Material-UI:** Biblioteca de componentes React para um design mais fácil e rápido.
 - **Node.js e Express:** Para o backend e criação de API.
 - **MySQL:** Banco de dados relacional para armazenar informações de usuários.
+
+## Dependencias
+-  **Cpf**
+-  **Cpf-check**
+-  **Cpf-cnpj-validator**
+-  **Date-fns**
+-  **Dotenv**
+-  **React-imask**
