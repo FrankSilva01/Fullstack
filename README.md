@@ -35,7 +35,7 @@ Um aplicativo web para cadastrar, visualizar, editar e excluir usuários. O apli
 
 ## API Endpoints
 
-# -  ROTA GET 
+## -  ROTA GET 
 `/api/listarUsuarios`: Retorna todos os usuários cadastrados.
 
 `Requisição`
@@ -44,7 +44,7 @@ URL: /api/listarUsuarios
 
 Respostas
 
-# Sucesso (Código: 200):
+## Sucesso (Código: 200):
 Corpo da Resposta (JSON):
 
 {
@@ -61,19 +61,19 @@ Corpo da Resposta (JSON):
   ]
 }
 
-# Nenhum Usuário Encontrado (Código: 404):
+## Nenhum Usuário Encontrado (Código: 404):
 Corpo da Resposta (JSON):
 {
   `message`: "Nenhum usuário encontrado."
 }
 
-# Erro Interno do Servidor (Código: 500):
+## Erro Interno do Servidor (Código: 500):
 {
  ` "error"`: "Erro interno no servidor. Por favor, tente novamente mais tarde."
 }
 
 
-# - ROTA DELETE 
+## - ROTA DELETE 
 `/api/excluirUsuario/:id`: Exclui um usuário com o ID fornecido.
 
 `Requisição`
@@ -81,25 +81,25 @@ Método: DELETE
 URL: /api/excluirUsuario/:id
 
 Respostas
-# Sucesso (Código: 200):
+## Sucesso (Código: 200):
 Corpo da Resposta (JSON):
 {
   `message`: "Usuário excluído com sucesso!"
 }
 
-# Usuário Não Encontrado (Código: 404):
+## Usuário Não Encontrado (Código: 404):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Usuário não encontrado."
 }
 
-# Erro Interno do Servidor (Código: 500):
+## Erro Interno do Servidor (Código: 500):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Erro interno no servidor. Por favor, tente novamente mais tarde."
 }
 
-# -  ROTA PUT
+## -  ROTA PUT
 - `/api/atualizarUsuario/:id`: Atualiza as informações de um usuário com o ID fornecido.
 
 `Requisição`
@@ -117,25 +117,25 @@ Corpo da Resposta (JSON):
   }
 Respostas
 
-# Sucesso (Código: 200):
+## Sucesso (Código: 200):
 Corpo da Resposta (JSON):
 {
   `message`: "Informações do usuário atualizadas com sucesso!"
 }
 
-# Usuário Não Encontrado (Código: 404):
+## Usuário Não Encontrado (Código: 404):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Usuário não encontrado."
 }
 
-# Erro de Validação (Código: 400):
+## Erro de Validação (Código: 400):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Campos obrigatórios ausentes: [lista de campos ausentes]"
 }
 
-# Erro Interno do Servidor (Código: 500):
+## Erro Interno do Servidor (Código: 500):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Erro interno no servidor. Por favor, tente novamente mais tarde."
@@ -160,7 +160,7 @@ Cadastra um novo usuário no sistema.
     "genero":` "string"
   }
 
-# Corpo da Solicitação (JSON):
+## Corpo da Solicitação (JSON):
 {
     `"cpf":` *"string"*,
     `"nome":` *"string"*,
@@ -170,8 +170,8 @@ Cadastra um novo usuário no sistema.
    `"genero":` *"string"*
 }
 
-# Respostas
-# Sucesso (Código: 201):
+## Respostas
+## Sucesso (Código: 201):
 
 Corpo da Resposta (JSON):
 {
@@ -187,13 +187,13 @@ Corpo da Resposta (JSON):
   }
 }
 
-# Erro de Validação (Código: 400):
+## Erro de Validação (Código: 400):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Campos obrigatórios ausentes: [lista de campos ausentes]"
 }
 
-# Erro Interno do Servidor (Código: 500):
+## Erro Interno do Servidor (Código: 500):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Erro interno no servidor. Por favor, tente novamente mais tarde."
@@ -209,26 +209,26 @@ Método: POST
 URL: https://api-teste.ip4y.com.br/cadastro
 
 Respostas
-# Sucesso (Código: 200):
+## Sucesso (Código: 200):
 Corpo da Resposta (JSON):
 {
   `message`: "Simulação bem-sucedida."
 }
 
-# Erro Interno do Servidor (Código: 500):
+## Erro Interno do Servidor (Código: 500):
 Corpo da Resposta (JSON):
 {
  ` "error"`: "Erro interno no servidor de simulação. Por favor, tente novamente mais tarde."
 }
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **ReactJs:** Biblioteca JavaScript para construção da interface do usuário.
 - **Material-UI:** Biblioteca de componentes React para um design mais fácil e rápido.
 - **Node.js e Express:** Para o backend e criação de API.
 - **MySQL:** Banco de dados relacional para armazenar informações de usuários.
 
-# Dependencias
+## Dependencias
 -  **Cpf**
 -  **Cpf-check**
 -  **Cpf-cnpj-validator**
