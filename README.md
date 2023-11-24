@@ -35,7 +35,7 @@ Um aplicativo web para cadastrar, visualizar, editar e excluir usuários. O apli
 
 ## API Endpoints
 
-## -  ROTA GET 
+# -  ROTA GET 
 `/api/listarUsuarios`: Retorna todos os usuários cadastrados.
 
 `Requisição`
@@ -73,7 +73,7 @@ Corpo da Resposta (JSON):
 }
 
 
-## - ROTA DELETE 
+# - ROTA DELETE 
 `/api/excluirUsuario/:id`: Exclui um usuário com o ID fornecido.
 
 `Requisição`
@@ -99,7 +99,7 @@ Corpo da Resposta (JSON):
  ` "error"`: "Erro interno no servidor. Por favor, tente novamente mais tarde."
 }
 
-## -  ROTA PUT
+# -  ROTA PUT
 - `/api/atualizarUsuario/:id`: Atualiza as informações de um usuário com o ID fornecido.
 
 `Requisição`
@@ -145,7 +145,7 @@ Corpo da Resposta (JSON):
 
 Cadastra um novo usuário no sistema.
 
-#### Requisição
+## Requisição
 
 - **Método:** `POST`
 - **URL:** `/api/cadastrarUsuarios`
@@ -221,14 +221,14 @@ Corpo da Resposta (JSON):
  ` "error"`: "Erro interno no servidor de simulação. Por favor, tente novamente mais tarde."
 }
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - **ReactJs:** Biblioteca JavaScript para construção da interface do usuário.
 - **Material-UI:** Biblioteca de componentes React para um design mais fácil e rápido.
 - **Node.js e Express:** Para o backend e criação de API.
 - **MySQL:** Banco de dados relacional para armazenar informações de usuários.
 
-## Dependencias
+# Dependencias
 -  **Cpf**
 -  **Cpf-check**
 -  **Cpf-cnpj-validator**
