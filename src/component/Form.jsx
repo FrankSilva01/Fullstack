@@ -27,8 +27,8 @@ const FormularioService = {
     console.log('Validando dados:', dados);
 
     if (!validarCPF(cpf)) {
-      console.log('CPF já cadastrado:', cpf);
-      return 'CPF já cadastrado, tente novamente';
+      console.log('CPF inválido:', cpf);
+      return 'CPF inválido, tente novamente';
     }
 
     if (![cpf, nome, sobrenome, dataNascimento, email, genero].every(Boolean)) {
