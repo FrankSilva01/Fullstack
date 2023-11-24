@@ -6,12 +6,13 @@ Um aplicativo web para cadastrar, visualizar, editar e excluir usuários. O apli
 
 1. **Backend:**
    - Certifique-se de ter o Node.js instalado.
-   - Instale as dependências do backend: `cd backend && npm install`
-   - Inicie o servidor: `npm start`
+   - Instale as dependências do backend: ` npm install`
+   - Navegue até a pasta do seu servidor: Nesse projeto `cd teste-fullstack e depois cd backend`
+   - Inicie o servidor: `node app.js`
    - O servidor estará disponível em `http://localhost:3003`.
 
 2. **Frontend:**
-   - Navegue até o diretório frontend: `cd frontend`
+   - Navegue até o diretório frontend: Nesse projeto`cd teste-fullstack`
    - Instale as dependências do frontend: `npm install`
    - Inicie o aplicativo React: `npm start`
    - O aplicativo estará disponível em `http://localhost:3000`.
